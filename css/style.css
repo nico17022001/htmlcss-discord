@@ -4,14 +4,16 @@
   box-sizing: border-box;
 }
 
+body{
+  font-size: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 .jumbo{
   background-image: url(../img/jumbo.png);
+  background-size: cover;
 }
 
 header{
   padding: 10px;
-  display: flex;
-  background-position: center;
 }
 
 header .container{
@@ -27,9 +29,8 @@ header .container div{
 }
 
 header li{
-  margin: 10px;
+  margin: 10px 45px;
   color: #eff2fc;
-  font-family: 'Roboto', sans-serif;
 }
 
 header  a{
@@ -41,7 +42,6 @@ header  a{
   width: 1170px;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
 }
 
 .logo{
@@ -56,26 +56,57 @@ header  a{
   align-items: center;
 }
 
+.bottoni{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
 .button{
   border-radius: 20px;
   border: 0;
   padding: 6px 14px;
 }
 
+.big{
+    border-radius: 20px;
+    border: 0;
+    padding: 10px 20px;
+    margin: 0px 10px;
+}
+
+.nero{
+  background-color: #23272a;
+  color: white;
+}
+
+.last{
+  margin: 0 auto;
+  padding: 0 auto;
+  margin-top: 50px;
+  }
+
+h2{
+  display: flex;
+  justify-content: center;
+  color: #fffffe;
+  font-size: xxx-large;
+}
+
+.txt{
+  color: #fcfcff;
+  padding: 0 250px;
+  margin-top: 20px;
+}
+
+
 .box{
   display: flex;
   padding: 20px;
 }
 
-.blue{
-  background-color:#00008b;
-}
-
 .sector{
   width: 70%;
-  height: 180px;
-  background-color:#ee82ee;
-  border:dashed #fafdfd 1px;
 }
 
 .azzurro{
