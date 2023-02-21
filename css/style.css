@@ -42,6 +42,7 @@ header  a{
   width: 1170px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-around;
 }
 
 .logo{
@@ -86,6 +87,10 @@ header  a{
   }
 
 h2{
+  color: #23272a;
+  margin-bottom: 20px;
+}
+header h2{
   display: flex;
   justify-content: center;
   color: #fffffe;
@@ -98,27 +103,31 @@ h2{
   margin-top: 20px;
 }
 
-
 .box{
   display: flex;
   padding: 20px;
+  margin: 100px auto;
 }
 
 .sector{
   width: 70%;
 }
 
-.azzurro{
+.immagine{
   background-color: #1e90ff;
-  width: 75%;
-  height: 250px;
+  width: 60%;
+  height: 500px;
 }
+
 
 .rosa{
   background-color: #ffc0cb;
-  width: 25%;
-  height: 250px;
+  width: 30%;
+  padding: 40px 94px;
+  height: 500px;
+  font-size: large;
 }
+
 
 .gray{
   background-color: #d3d3d3;
