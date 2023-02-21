@@ -38,6 +38,9 @@ header  a{
   text-decoration: none;
 }
 
+p{
+  
+}
 .container{
   width: 1170px;
   margin: 0 auto;
@@ -114,35 +117,45 @@ header h2{
 }
 
 .immagine{
-  background-color: #1e90ff;
   width: 60%;
   height: 500px;
 }
 
 
 .rosa{
-  background-color: #ffc0cb;
   width: 30%;
   padding: 40px 94px;
   height: 500px;
   font-size: large;
 }
 
-
+.centro{
+  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
 .gray{
   background-color: #d3d3d3;
 }
 
-.verde{
-  background-color: green;
+.grande{
   width: 100%;
-  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .black{
   background-color: #23272a;
   border: #d3d3d3 solid 0.1px;
 }
+
+.avventura{
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+} 
 
 .pink{
   background-color: #f08080;
@@ -165,3 +178,7 @@ header h2{
   padding: 10px 0px;
 }
 
+.blu{
+  color:white ;
+  background-color: #8ea1e1;
+}
