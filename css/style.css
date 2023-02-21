@@ -66,6 +66,7 @@ header  a{
   border-radius: 20px;
   border: 0;
   padding: 6px 14px;
+  cursor:pointer;
 }
 
 .big{
@@ -81,9 +82,7 @@ header  a{
 }
 
 .last{
-  margin: 0 auto;
-  padding: 0 auto;
-  margin-top: 50px;
+  margin: 50px auto;
   }
 
 h2{
